@@ -19,9 +19,7 @@ const WEHeader = () => {
 
 const Styles = {
     AppBar: {
-        position: 'fixed',
         width: '100vw',
-        top: 0,
     },
     AppBarIcon: {
         display: { xs: 'none', md: 'flex' },

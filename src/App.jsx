@@ -1,6 +1,7 @@
 import WEHeader from "./components/WEHeader.jsx";
 import {createTheme, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
 import {useMemo} from "react";
+import WEFoodSelectionArea from "./components/WEFoodSelectionArea.jsx";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <ThemeProvider theme={theme}>
                 <CssBaseline/>
                 <WEHeader/>
+                <WEFoodSelectionArea />
             </ThemeProvider>
         </>
     );
