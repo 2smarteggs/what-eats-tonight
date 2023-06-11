@@ -10,7 +10,7 @@ const WEFoodCard = (props) => {
                 image="https://img2.baidu.com/it/u=3708501104,2668950655&fm=253&fmt=auto&app=138&f=JPEG?w=501&h=500"
             />
             <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h6" component="div">
                     {props.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
@@ -28,8 +28,8 @@ const WEFoodCard = (props) => {
 
 const Styles = {
     Card: {
-        maxWidth: `${(100 - 2) / 2}vw`,
-        m: '1vw'
+        minWidth: `${(100 - 12) / 2}vw`,
+        m: '3vw'
     }
 }
 

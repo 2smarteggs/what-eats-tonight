@@ -8,7 +8,7 @@ const WEHeader = () => {
             <AppBar position="static" sx={Styles.AppBar}>
                 <Toolbar>
                     <DinnerDiningIcon sx={Styles.AppBarIcon} />
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
                         {WEStrings.header.mainTitle}
                     </Typography>
                 </Toolbar>

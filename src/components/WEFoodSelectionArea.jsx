@@ -11,6 +11,8 @@ const WEFoodSelectionArea = () => {
         </div>
         <div style={Styles.AreaContent}>
             <WEFoodCard name={WEStrings.selection.primary.food[0].name} desc={WEStrings.selection.primary.food[0].desc} />
+            <WEFoodCard name={WEStrings.selection.primary.food[0].name} desc={WEStrings.selection.primary.food[0].desc} />
+            <WEFoodCard name={WEStrings.selection.primary.food[0].name} desc={WEStrings.selection.primary.food[0].desc} />
         </div>
     </div>);
 }
@@ -21,11 +23,13 @@ const Styles = {
         flexDirection: 'column',
     },
     AreaHeader: {
-        padding: '1vw',
+        padding: '3vw',
         height: '20%'
     },
     AreaContent: {
-        height: '80%'
+        height: '80%',
+        display: 'flex',
+        overflow: 'scroll'
     }
 }
 
